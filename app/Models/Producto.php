@@ -8,5 +8,5 @@ class Producto extends Model
 {
     protected $connection = 'mongodb';
     protected $table = 'productos';
-    protected $fillable = ['nombre', 'precio', 'stock'];
+    protected $fillable = ['nombre', 'precio', 'categoria'];
 }
