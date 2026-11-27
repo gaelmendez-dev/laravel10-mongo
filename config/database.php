@@ -36,9 +36,9 @@ return [
     'connections' => [
 
         'mongodb' => [
-    'driver' => 'mongodb',
-    'dsn' => env('MONGODB_URI', 'mongodb://127.0.0.1:27017'),
-    'database' => env('MONGODB_DATABASE', 'laravel10_mongo'),
+            'driver' => 'mongodb',
+            'dsn' => env('DB_URI'),
+            'database' => env('DB_DATABASE', 'Tecnotienda'),
         ],
 
         'sqlite' => [
